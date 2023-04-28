@@ -1,0 +1,222 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+li{
+    float: left;
+    margin: 10px,20px;
+}
+li a{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color: black;
+    color: white;
+}
+.active{
+    background-color: yellow;
+    color: white;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(46, 46, 46);;
+
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.detel{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.detel.h1{
+    font-size: 40px;
+    color:white;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30 px;
+    border-radius: 50px;
+    transition: 4s;
+}
+.btn:hover{
+    transform: scale(1.8);
+    background-color: transparent;
+    border: 2px solid purple;
+    cursor: pointer;
+
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.detel{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.about-text h2{
+    color: green;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: yellow;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-transform: initial;
+}
+button{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid purple;
+    cursor: pointer;
+}
+.Skills{
+    background: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: green;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: yellow;
+}
+h5{
+    color: red;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.des p{
+    color:yellow;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 23px;
+    border-radius: 30px;
+    transition: 4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid purple;
+    cursor: pointer;
+
+}
+.Contact{
+    width: 100%;
+    height: 300px;
+    background: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Contact p{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.Contact .button-two{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 23px;
+    border-radius: 30px;
+    transition: 4s;
+
+}
+.Contact .button-two:hover{
+
+    background-color: transparent;
+    border: 2px solid purple;
+    cursor: pointer;
+}

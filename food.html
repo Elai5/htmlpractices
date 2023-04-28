@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Xavi's Cafe</title>
+
+<link rel="stylesheet" href="africancuisine.css">
+
+</head>
+
+<body>
+
+<div class="menu">
+
+<div class="heading">
+
+<h1>Xavi's Cafe</h1>
+
+<h3>&mdash; Menu &mdash;</h3>
+
+</div>
+
+<div class= "grid-container"class="food itmes">
+
+<img src="f1.jpg" alt="">
+
+<div class="details">
+
+<div class="details=sub">
+
+<h5>Chicken Naan</h5>
+
+<h5 class="price"> Ksh 450</h5>
+
+</div>
+
+<p> Well prepared sticky sweet chicken and butter naan</p>
+
+<button>Order</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="food itmes">
+
+<img src="f2.kjpg.jpg" alt="">
+
+<div class="details">
+
+<div class="details=sub">
+
+<h5>Choma Sauasage</h5>
+
+<h5 class="price">Ksh 400</h5>
+
+</div>
+
+<p> Slow roasted with style</p>
+
+<button>Order</button>
+
+</div>
+
+</div>
+
+<div class="food itmes">
+
+<img src="f3.jpg" alt="">
+
+<div class="details">
+
+<div class="details=sub">
+
+<h5>Meaty Burger</h5>
+
+<h5 class="price" style="left: 20px ;"> Ksh 300</h5>
+
+</div>
+
+<p>Prepared with Love</p>
+
+<button>Order</button>
+
+</div>
+
+</div>
+
+<div class="food itmes">
+
+<img src="fx.jpg" alt="">
+
+<div class="details">
+
+<div class="details=sub">
+
+<h5>Chicken Biriani</h5>
+
+<h5 class="price"> Ksh 500</h5>
+
+</div>
+
+<p> Finger Licking </p>
+
+<button>Order</button>
+
+</div>
+
+</body>
+
+</html>
+
+Css
+
+* {
+
+padding: 0;
+
+margin: 0%;
+
+box-sizing: border-box;
+
+}
+
+body {
+
+background-color: bisque;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.menu {
+
+padding: 0 10px 30px 10px;
+
+display: grid;
+
+grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));
+
+grid-gap: 20px 40px;
+
+}
+
+.heading {
+
+background-color: crimson;
+
+color: azure;
+
+margin-bottom: 30px;
+
+padding: 30px 0;
+
+grid-column: 1/-1;
+
+text-align: center;
+
+}
+
+.heading>h1 {
+
+font-weight: 400;
+
+font-size: 30px;
+
+letter-spacing: 10px;
+
+margin-bottom: 10px;
+
+}
+
+.heading>h3 {
+
+font-weight: 600;
+
+font-size: 22px;
+
+letter-spacing: 5px;
+
+}
+
+.food items {
+
+display: grid;
+
+position: relative;
+
+grid-template-rows: auto 1fr;
+
+border-radius: 15px;
+
+border-shadow: 0 0 0 15px rgba(0,0,0,0, .1);
+
+}
+
+.food items img{
+
+position: static;
+
+width: 100px;
+
+border-radius: 15px 15px 0 0;
+
+}
+
+.h1 {
+
+grid-column: 1/-1;
+
+text-align: center;
+
+}
+
+.details{
+
+padding: 20px 10px;
+
+display: grid;
+
+grid-template-rows: auto 1fr 50px;
+
+grid-row-gap: 15px;
+
+}
+
+.details-sub{
+
+display: grid;
+
+grid-template-columns: auto auto;
+
+}
+
+.details-sub>h5{
+
+font-weight: 600;
+
+font-size: 30px;
+
+}
+
+.price {
+
+text-align: justify;
+
+}
+
+.details>p{
+
+color: bisque;
+
+font-size: 5px;
+
+line-height: 28px;
+
+font-weight: 400;
+
+align-self: stretch;
+
+}
+
+.details>button{
+
+background-color: crimson;
+
+border: none;
+
+color: azure;
+
+font-size: 30px;
+
+font-weight: 600;
+
+border-radius: 5px;
+
+width: 180px;
+}

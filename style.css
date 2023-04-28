@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color:yellow;
+    font-size: 22px;
+    text-align: center;
+}
+#hero{
+    border: 2px solid red;
+    background-color: purple;
+    width: 500px;
+    text-align: center;
+    font-weight: bolder;
+}
+table{
+    border-spacing: 2.8px;
+    border-collapse:4px;
+    border-radius:100px;
+}
+#rcorners1{
+    border-radius:15px;
+    border-color:blue;
+    border-width: 4px;
+    border-style: solid 60px;
+}
+table th{
+    font-weight: bold;
+
+}
+tr th{
+    background-color: lightblue;
+}
+tr:nth-child(2){
+    background-color:lightblue;
+}
+tr:nth-child(4){
+    background-color: #dddddd;
+}
+tr{
+    border-style: hidden;
+    border: 2cm;
+    border-spacing: 4px;
+}
+.image img{
+    display: block;
+    padding-left: 200px;
+    padding-top: 60px;
+    border-radius:50px 50em 40% 50cm;
+    width: 25%;
+
+}

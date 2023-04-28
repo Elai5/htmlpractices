@@ -1,0 +1,29 @@
+p{
+    border-top: solid yellow 20px ;
+    border-left: solid gray 20px;
+    border-bottom: solid yellow 20px;
+    border-right: solid gray 20px;
+    direction: rtl;
+    text-align: end;
+}
+section{
+    padding: 12em;
+    background:linear-gradient(120deg, red,30%, transparent 35%),
+    linear-gradient(225deg, purple,30%, transparent 35%),
+    linear-gradient(45deg,blue,30%, transparent 35% );
+    background-color: gold;
+
+    width: 100px;
+    height: 90px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 11opx;
+    position: absolute;
+    background: linear-gradient(
+        90deg,
+        hsl(0, 100%, 50%)
+    );
+}
