@@ -34,6 +34,16 @@
         padding: 3px 12px;
         margin: 13px 15px;
     }
+    select{
+        padding: 0 4px;
+        margin: 8px;
+    }
+    option{
+        padding: 5px 8px;
+        margin: 5px;
+        color: red;
+    }
+   /
 
 </style>
 <body>
@@ -56,21 +66,34 @@
         <!-- <input type="radio" name="gender" value="male" checked>male -->
       <label for="password">passcode<input type="password" name="password" placeholder="password"></label>
       <button type="button" onclick="alert('great to have you')">hey you!</button>
-        </fieldset>
+        </fieldset><br>
         <fieldset>
             <legend>School Work</legend>
             <label for="artist">artist</label>
             <select name="players" id="play">
                 <option value="1">khalid</option>
                 <option value="2">Kane</option>
-                <option value="3" selected>Dan</option>
+                <option value="3" selected>Dan</option><br>
             </select><br>
-            <label for="daya">kilo<input type="text" name="artists" placeholder="artiste"></label>
-        </fieldset>
+            <label for="food">food
+                <select name="food" id="food">
+                    <option value="fast">coco</option>
+                    <option value="">kiko</option>
+                   
+            </label><br>
+            <!-- <label for="daya">kilo<input type="text" name="artists" placeholder="artiste"></label> -->
+        </fieldset><br>
         
     </form><br>
-    <!-- <form action="">
-
-    </form> -->
+    <form action="">
+      <label for="music">musico<input list="music" name="musics" placeholder="musico"></label>
+        <datalist id="music">
+            <option value="01">rnb</option>
+            <option value="02">jazz</option>
+            </datalist>
+            <input type="submit" style="border-radius: 34px;margin: 5px;background: linear-gradient(to right,purple, pink,orange);">
+            
+    </select>
+    </form>
 </body>
 </html>
