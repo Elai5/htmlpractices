@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html5form</title>
+</head>
+<style>
+
+    form{
+        width: 300px;
+        /* height: 200px; */
+        background:linear-gradient(to left, blue, grey);
+        padding: 13px 12px;
+        /* margin: 15px; */
+        /* justify-content: center; */
+        /* align-content: center; */
+        /* align-items: start; */
+    }
+    input{
+        /* padding:/ 4px; */
+        display: block;
+        width: 100%;
+        
+    }
+    label{
+        color: aqua;
+    }
+    button{
+        border-radius: 15px;
+        padding: 3px 12px;
+        margin: 13px 15px;
+    }
+</style>
+<body>
+    <form>
+       <label>First name
+        <input type="text" name="Fname" placeholder="firstname" required></label><br>
+        <label>email
+        <input type="email" name="email" placeholder="abc@yahoo.com" required></label><br>
+        <!-- <input type="radio" name="gender" value="male" checked>male -->
+      <label for="password">passcode<input type="password" name="password" placeholder="password"></label><br>
+    <label for="msg">Message</label>  <textarea name="message" id="msg" cols="30" rows="10" placeholder="We value your feedback!"></textarea>
+    </form>
+    <br>
+    <form action="">
+        <fieldset>
+            <legend>Personal info</legend>
+            <input type="text" name="Fname" placeholder="firstname" required></label><br>
+        <label>email
+        <input type="email" name="email" placeholder="abc@yahoo.com" required></label><br>
+        <!-- <input type="radio" name="gender" value="male" checked>male -->
+      <label for="password">passcode<input type="password" name="password" placeholder="password"></label>
+      <button type="button" onclick="alert('great to have you')">hey you!</button>
+        </fieldset>
+  
+    </form>
+</body>
+</html>
