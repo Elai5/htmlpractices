@@ -43,8 +43,7 @@
         margin: 5px;
         color: red;
     }
-
-
+   
 </style>
 <body>
     <form>
@@ -54,7 +53,10 @@
         <input type="email" name="email" placeholder="abc@yahoo.com" required></label><br>
         <!-- <input type="radio" name="gender" value="male" checked>male -->
       <label for="password">passcode<input type="password" name="password" placeholder="password"></label><br>
-    <label for="msg">Message</label>  <textarea name="message" id="msg" cols="30" rows="10" placeholder="We value your feedback!"></textarea>
+    <label for="msg">Message</label>  <textarea name="message" id="msg" cols="30" rows="10" placeholder="We value your feedback!"></textarea><br>
+    <label for="select image"><input type="file" name="img" multiple></label><br>
+    <input type="submit" value="Validate">
+
     </form>
     <br>
     <form action="">
@@ -103,6 +105,7 @@
     <input type="submit" formtarget="_self" value="Submit to a new window/tab">
   </form>
   
-  <p><strong>Note:</strong> The formtarget attribute of the input tag is not supported in Internet Explorer 9 and earlier versions.</p>
+  <p><strong>Note:</strong> The formtarget attribute of the input tag is not supported in Internet Explorer 9 and earlier versions.</p><br>
+
 </body>
 </html>
