@@ -5,9 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>image display</title>
+    <style>
+        body{
+            background-image:url(/image/stranger.jpg);
+            z-index: 1;
+            background-repeat: no-repeat;
+            /* background-position: right top; */
+            /* background-attachment: fixed; */
+            /* background-blend-mode: soft-light; */
+            background-size:cover;
+            height: 100vh;
+            /* color: rgb(6, 6, 6); */
+        }
+        .sector{
+            height: 100vh;
+            width: 40%;
+            /* opacity: 0.6; */
+            /* background: linear-gradient(to right, rgb(18, 12, 12) 0%, rgb(79, 5, 5) 100%); */
+        }
+        .mimo{
+            opacity: 0.9;
+            z-index: -1;
+            /* background: red; */
+        }
+    </style>
 </head>
 <body>
-    <img src="master ">
+    <div class="sector">
+    <!-- <img src="/image/master2.jpg "> -->
+    <div class="mimo">
     <h2>html multi-level list</h2>
     <ol>
         <li>breakfirst</li>
@@ -21,5 +47,7 @@
             <li>nugget</li>
         </ul>
     </ol>
+    </div>
+    </div>
 </body>
 </html>
