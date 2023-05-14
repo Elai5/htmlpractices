@@ -22,7 +22,9 @@
         /* padding:/ 4px; */
         display: block;
         width: 100%;
-        
+    }
+    input:invalid{
+        border: 2px solid red;
     }
     label{
         color: aqua;
@@ -43,12 +45,41 @@
         margin: 5px;
         color: red;
     }
+    ::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red; 
+    background: yellow;
+}
+ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+li { 
+    padding-left: 16px; 
+}
+
+li:before {
+    content: "*o"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: red; /* Or a color you prefer */
+
+}
+li::after{
+    content: "4";
+    color: wheat;
+}
    
 </style>
 <body>
     <form>
        <label>First name
-        <input type="text" name="Fname" placeholder="firstname" required></label><br>
+        <input type="text" name="Fname" placeholder="firstname" required aria-invalid="invalid input"></label><br>
         <label>email
         <input type="email" name="email" placeholder="abc@yahoo.com" required></label><br>
         <!-- <input type="radio" name="gender" value="male" checked>male -->
@@ -106,6 +137,11 @@
   </form>
   
   <p><strong>Note:</strong> The formtarget attribute of the input tag is not supported in Internet Explorer 9 and earlier versions.</p><br>
-
+<header>
+    <ul>
+        <li><a href="">bora</a></li>
+        <li><a href="">milo</a></li>
+    </ul>
+</header>
 </body>
 </html>

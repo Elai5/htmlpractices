@@ -5,32 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>image display</title>
+    <link rel="stylesheet" href="imagehtm.css">
     <style>
         body{
-            background-image:url(/image/stranger.jpg);
-            z-index: 1;
+            /* background-image:url(/image/stranger.jpg); */
+            z-index: -1;
             background-repeat: no-repeat;
-            /* background-position: right top; */
-            /* background-attachment: fixed; */
-            /* background-blend-mode: soft-light; */
             background-size:cover;
-            height: 100vh;
-            /* color: rgb(6, 6, 6); */
+            /* height: 100vh; */
+            color: white;
+            /* opacity: 0.4; */
         }
         .sector{
             height: 100vh;
-            width: 40%;
-            /* opacity: 0.6; */
-            /* background: linear-gradient(to right, rgb(18, 12, 12) 0%, rgb(79, 5, 5) 100%); */
+            width: 100%;
+            color: black;
+            opacity: 1.9;
+            visibility: visible;
+            /* background: linear-gradient(90deg, rgba(0,0,0,1)0%, rgba(83,100,141,0)100%); */
         }
         .mimo{
             opacity: 0.9;
             z-index: -1;
             /* background: red; */
         }
+        h2{
+            /* color: blue; */
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        }
+        ol{ text-shadow: 2px 2px 8px #FF0000;
+        font-variant: small-caps;}
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: wheat;
+        }
+        header ul{
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            justify-content: space-around;
+        
+        }
+        header ul li{
+            text-decoration: none;
+            /* list-style-image: url(/image/wolfy.jpg); */
+            /* width: 20px; */
+            
+        }
+        header ul li a{
+            text-decoration: none;
+            color: #0000FF;
+        }
+        a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #000;
+}
     </style>
 </head>
 <body>
+    <header>
+        <ul>
+            <li>
+                <a href="">home</a>
+            </li>
+            <li><a href="">milo</a></li>
+            <li><a href="">boho</a></li>
+        </ul>
+    </header>
     <div class="sector">
     <!-- <img src="/image/master2.jpg "> -->
     <div class="mimo">
@@ -48,6 +105,32 @@
         </ul>
     </ol>
     </div>
+<table border="1">
+    <caption>pop players</caption>
+    <th>rnb</th>
+    <tr>
+        <td>the weekend</td>
+        <td>doja</td>
+        <td>cat</td>
+    </tr>
+    <tr>
+        <td>kane</td>
+        <td>mike</td>
+        <td>brom</td>
+    </tr>
+    <tr>
+        <td>loose</td>
+        <td>sia</td>
+        <td>brown</td>
+    </tr>
+</table>
+<div class="floats">
+    <img src="/image/Hotel Monaco.jpg" alt="" style="width: 400px;">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure hic vero accusantium, ea consequatur nostrum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta maiores delectus, numquam iste dolores ex praesentium! Reiciendis?</p>
+</div>
     </div>
 </body>
 </html>
